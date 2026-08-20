@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-Syntara is a distributed multi-agent system that enables coordinated AI agents to work together on complex tasks. The project uses Python 3, `uv` for dependency management, and enforces strict code quality standards.
+A workflow automation platform that combines AI agents, action steps, and human oversight in a visual workflow designer, enabling you to orchestrate complex, multi-step processes across systems.
+
+The project uses Python 3, `uv` for dependency management, and enforces strict code quality standards.
 
 ## General Instructions
 

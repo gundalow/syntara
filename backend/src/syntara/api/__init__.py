@@ -1,6 +1,6 @@
 """Syntara API - A distributed multi-agent system.
 
-Syntara enables coordinated AI agents to work together on complex tasks.
+A workflow automation platform that combines AI agents, action steps, and human oversight in a visual workflow designer, enabling you to orchestrate complex, multi-step processes across systems.
 """
 
 # ===========================================================

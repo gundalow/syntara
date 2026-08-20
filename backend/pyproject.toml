@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "syntara"
 version = "0.1.0"
-description = "A distributed multi-agent system. Syntara enables coordinated AI agents to work together on complex tasks."
+description = "A workflow automation platform that combines AI agents, action steps, and human oversight in a visual workflow designer, enabling you to orchestrate complex, multi-step processes across systems."
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [

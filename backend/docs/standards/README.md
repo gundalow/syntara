@@ -10,7 +10,7 @@ These existing documents define core standards and should be consulted first:
 
 | Document | Scope |
 |----------|-------|
-| [Decision Records](https://github.com/syntara-orchestration/syntara/blob/devel/backend/decision-records.md) | Technology choices and rationale (Temporal, FastAPI, SQLModel, Redis, structlog, etc.) |
+| [Decision Records](https://github.com/syntara-orchestration/syntara/blob/devel/backend/docs/decision-records.md) | Technology choices and rationale (Temporal, FastAPI, SQLModel, Redis, structlog, etc.) |
 | [Error Handling Strategy](../error-handling-strategy.md) | RFC 9457 compliance, exception patterns, security |
 | [AGENTS.md](https://github.com/syntara-orchestration/syntara/blob/devel/backend/AGENTS.md) | AI agent instructions, technology choices, development workflow |
 | [CONTRIBUTING.md](https://github.com/syntara-orchestration/syntara/blob/devel/backend/CONTRIBUTING.md) | Human contributor guide, PR process |

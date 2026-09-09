@@ -91,6 +91,7 @@ nav:
   - Home: index.md
   - Backend:
       - Getting Started: backend/developer-getting-started.md
+      - Decision Records: backend/decision-records.md
       - Authentication: backend/authentication.md
       - Authorization: backend/authorization.md
       - Approvals:

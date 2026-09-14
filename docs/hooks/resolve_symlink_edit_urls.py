@@ -5,7 +5,7 @@ import re
 
 
 def on_page_markdown(markdown, *, page, config, files):
-    src_path = page.file.abs_src_path
+    src_path = Path(page.file.abs_src_path)
     real_path = os.path.realpath(src_path)
 
     if real_path != os.path.abspath(src_path):

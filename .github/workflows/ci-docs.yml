@@ -31,5 +31,5 @@ jobs:
         with:
           python-version: '3.12'
       - uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
-      - run: uv pip install --system -r docs/requirements.txt
+      - run: uv pip install --system --require-hashes -r docs/requirements.txt
       - run: mkdocs build --strict

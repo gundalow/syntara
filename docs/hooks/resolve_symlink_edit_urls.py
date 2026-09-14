@@ -2,6 +2,7 @@
 
 import os
 import re
+from pathlib import Path
 
 
 def on_page_markdown(markdown, *, page, config, files):

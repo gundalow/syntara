@@ -177,3 +177,4 @@ nav:
   - CI:
       - Secrets Inventory: ci/secrets-inventory.md
       - Secrets Storage: ci/secrets-storage.md
+      - Test Quarantine: ci/test-quarantine.md

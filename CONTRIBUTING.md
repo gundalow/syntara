@@ -197,7 +197,7 @@ Direct dependencies are declared with range constraints in `docs/requirements.in
 When adding or removing an MkDocs plugin, edit `docs/requirements.in` then recompile the lockfile:
 
 ```bash
-uv pip compile --universal --output-file docs/requirements.txt docs/requirements.in
+uv pip compile --universal --generate-hashes --output-file docs/requirements.txt docs/requirements.in
 ```
 
 Include both files in the same PR.

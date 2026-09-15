@@ -1440,10 +1440,10 @@ Detail pages use the entity name from API data as the first segment, falling bac
 
 ## Related Docs
 
-| Doc                                                                       | Content                                                      |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| [`docs/zustand-architecture.md`](./zustand-architecture.md)               | Deep dive into workflow store, actions, and state management |
-| [`docs/websocket-architecture.md`](./websocket-architecture.md)           | WebSocket infrastructure, hooks, and real-time patterns      |
-| [`docs/user-guides/filtering.md`](./user-guides/filtering.md)             | How to use search and filters in the UI; shareable URLs      |
-| [`docs/TEST_HELPERS_FILTER_TESTING.md`](./TEST_HELPERS_FILTER_TESTING.md) | Unit-test helpers for filter URL assertions                  |
-| [`AGENTS.md`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/AGENTS.md)                                               | Quick reference for AI assistants and developers             |
+| Doc                                                                                           | Content                                                      |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| [`docs/zustand-architecture.md`](./zustand-architecture.md)                                   | Deep dive into workflow store, actions, and state management |
+| [`docs/websocket-architecture.md`](./websocket-architecture.md)                               | WebSocket infrastructure, hooks, and real-time patterns      |
+| [`docs/user-guides/filtering.md`](./user-guides/filtering.md)                                 | How to use search and filters in the UI; shareable URLs      |
+| [`docs/TEST_HELPERS_FILTER_TESTING.md`](./TEST_HELPERS_FILTER_TESTING.md)                     | Unit-test helpers for filter URL assertions                  |
+| [`AGENTS.md`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/AGENTS.md) | Quick reference for AI assistants and developers             |

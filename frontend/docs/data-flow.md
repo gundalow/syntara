@@ -545,8 +545,8 @@ sequenceDiagram
 
 ### Critical Files
 
-| File                                                                                                                                                        | Purpose                   |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| File                                                                                                                                                                                                                          | Purpose                   |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
 | [`packages/syntara-contracts/package.json`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/packages/syntara-contracts/package.json)                                                                     | Type generation scripts   |
 | [`packages/syntara-ui/src/client.tsx`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/packages/syntara-ui/src/client.tsx)                                                                               | API client creation       |
 | [`packages/syntara-ui/src/routes/builder/utils/processExistingWorkflow.ts`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/packages/syntara-ui/src/routes/builder/utils/processExistingWorkflow.ts)     | Load workflow from API    |

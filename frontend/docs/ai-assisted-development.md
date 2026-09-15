@@ -482,8 +482,8 @@ The skill lives at [`.claude/skills/frontend-build-ui-feature/SKILL.md`](https:/
 
 ## Further Reading
 
-| Topic                       | Document                                                                                                           |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Topic                       | Document                                                                                                                                                                          |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Coding standards            | [`.claude/skills/frontend-coding-standards/SKILL.md`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/.claude/skills/frontend-coding-standards/SKILL.md)     |
 | Testing standards           | [`.claude/skills/frontend-testing-guidelines/SKILL.md`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/.claude/skills/frontend-testing-guidelines/SKILL.md) |
 | PR review process           | [`.claude/skills/frontend-pr-review/SKILL.md`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/.claude/skills/frontend-pr-review/SKILL.md)                   |
@@ -491,7 +491,7 @@ The skill lives at [`.claude/skills/frontend-build-ui-feature/SKILL.md`](https:/
 | PatternFly UX design system | [`.claude/skills/frontend-patternfly-ux/SKILL.md`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/.claude/skills/frontend-patternfly-ux/SKILL.md)           |
 | Frontend specialist         | [`.claude/skills/frontend-specialist/SKILL.md`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/.claude/skills/frontend-specialist/SKILL.md)                 |
 | Library references          | [`.claude/skills/frontend-library-references/SKILL.md`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/.claude/skills/frontend-library-references/SKILL.md) |
-| Architecture overview       | [`architecture.md`](./architecture.md)                                                                             |
-| Error handling              | [`error-handling.md`](./error-handling.md)                                                                         |
-| Contributing                | [`CONTRIBUTING.md`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/CONTRIBUTING.md)          |
-| PR template                 | [`.github/pull_request_template.md`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/.github/pull_request_template.md) |
+| Architecture overview       | [`architecture.md`](./architecture.md)                                                                                                                                            |
+| Error handling              | [`error-handling.md`](./error-handling.md)                                                                                                                                        |
+| Contributing                | [`CONTRIBUTING.md`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/CONTRIBUTING.md)                                                                         |
+| PR template                 | [`.github/pull_request_template.md`](https://github.com/syntara-orchestration/syntara/blob/devel/frontend/.github/pull_request_template.md)                                       |

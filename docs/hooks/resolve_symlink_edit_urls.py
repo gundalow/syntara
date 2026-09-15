@@ -1,6 +1,5 @@
 """MkDocs hook: rewrite edit URLs for symlinked docs to point to the real path."""
 
-import os
 import re
 from pathlib import Path
 
@@ -17,11 +16,11 @@ def on_page_markdown(
     files: Files,
 ) -> str:
     src_path = Path(page.file.abs_src_path)
-    real_path = os.path.realpath(src_path)
+    resolved = src_path.resolve()
 
-    if real_path != os.path.abspath(src_path):
-        repo_root = os.path.dirname(config["docs_dir"])
-        real_rel = os.path.relpath(real_path, repo_root)
+    if resolved != src_path:
+        repo_root = Path(config["docs_dir"]).parent
+        real_rel = resolved.relative_to(repo_root)
         repo_url = config.get("repo_url", "").rstrip("/")
         edit_uri = config.get("edit_uri", "")
         if repo_url and edit_uri:

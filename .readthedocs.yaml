@@ -5,6 +5,11 @@ build:
   os: ubuntu-lts-latest
   tools:
     python: "3.12"
+  jobs:
+    checkout:
+      - git clone --no-checkout --filter=blob:none $READTHEDOCS_GIT_CLONE_URL .
+      - git fetch origin $READTHEDOCS_GIT_IDENTIFIER
+      - git checkout --force $READTHEDOCS_GIT_COMMIT_HASH
 
 mkdocs:
   configuration: mkdocs.yml
